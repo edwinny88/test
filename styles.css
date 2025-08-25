@@ -189,7 +189,7 @@ body h3{
     aspect-ratio: auto;
     grid-column: span 1 / span 1;
     border-radius:0.5rem;
-    width: 150px;
+    width: 75%;
 }
 .two-column{
     display: grid;
@@ -208,7 +208,7 @@ body h3{
 .menu-item{
     grid-column: span 1 / span 1;
     aspect-ratio: 1/1;
-    width: 150px;
+    width: 75%;
     padding: 1rem;
     background: white;
 }
@@ -323,4 +323,5 @@ footer{
         padding-left: 10rem;
         padding-right: 10rem;
     }
+
 }
