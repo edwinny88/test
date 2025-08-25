@@ -277,7 +277,7 @@ footer{
     height:20px;
 }
 
-@media(min-width: 860px) {
+@media(min-width: 1080px) {
     header p{
         font-size: 6rem;
     }
@@ -304,7 +304,7 @@ footer{
     }
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1580px) {
     .button-container{
         height: 130px;
     }
