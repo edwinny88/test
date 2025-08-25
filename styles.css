@@ -277,7 +277,7 @@ footer{
     height:20px;
 }
 
-@media(min-width: 760px) {
+@media(min-width: 860px) {
     header p{
         font-size: 6rem;
     }
