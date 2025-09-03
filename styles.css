@@ -159,10 +159,6 @@ body h1{
     font-family: "Darumadrop One", sans-serif;
     font-size: 7vmin;
 }
-body h3{
-    font-family: "Darumadrop One", sans-serif;
-    font-size: 3rem;
-}
 
 /*https://www.digitalocean.com/community/tutorials/css-collapsible*/
 .notebook-paper{
@@ -321,11 +317,14 @@ body h3{
 
 .menu-item{
     grid-column: span 1 / span 1;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.2;
+    object-fit: cover;
     width: 75%;
     padding: 1rem;
     background: white;
     align-self: center;
+    top:100px;
+    object-position: 100% 80%;
 }
 .description{
     grid-column: span 3 / span 3;
