@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Chubbo";
+    src: url(Chubbo-Variable.ttf);
+}
 :root{
     --color-accent: #f9edc3;
     --color-main: #554944;
@@ -81,8 +85,8 @@ header p{
 }
 
 .nav-img2{
-    aspect-ratio: 1 /1.2;
-    width: 55px;
+    aspect-ratio: 1 /1;
+    width: 70px;
     justify-content: center;
     padding-bottom: 0;
     color: var(--color-main);
@@ -217,7 +221,7 @@ body h3{
 }
 
 .menu-title{
-    font-family: "Quicksand", sans-serif;
+    font-family: "Chubbo", sans-serif;
     align-self: center;
     font-size: 3rem;
 }
@@ -242,21 +246,52 @@ body h3{
 .washi-container{
     position: relative;
 }
+.washi-container-centered{
+    position: relative;
+    left: 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.washi-container-centered-long{
+    position: relative;
+    left: 20%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
 
 .washi{
     aspect-ratio: auto;
     width:40%;
 }
-.centered {
+.washi-centered-long{
+    aspect-ratio: 5.3/1;
+    width:60%;
+}
+.washi-centered{
+    aspect-ratio: auto;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered,
+.centered-long {
     position: absolute;
     top: 50%;
-    left: 20%;
     transform: translate(-50%, -50%);
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Chubbo", sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 3vmin;
 }
-
+.centered{
+    left: 20%;
+}
+.centered-long{
+    left: 30%;
+}
+.subtext{
+    padding-top: 0;
+    text-align: center;
+}
 .chef-photo{
     aspect-ratio: auto;
     grid-column: span 1 / span 1;
@@ -275,6 +310,14 @@ body h3{
     background-color: white;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 525;
+}
+
+.white-filler-menu{
+    padding:1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-weight: 525;
+    font-size: 1.2rem;
 }
 
 .menu-item{
