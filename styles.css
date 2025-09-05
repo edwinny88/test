@@ -240,6 +240,7 @@ body h1{
 
 .washi-container{
     position: relative;
+    left:30%;
 }
 .washi-container-centered{
     position: relative;
@@ -269,19 +270,31 @@ body h1{
     margin-right: auto;
 }
 .centered,
-.centered-long {
+.centered-long, 
+.centered-menu{
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     font-family: "Chubbo", sans-serif;
     font-weight: 700;
-    font-size: 3vmin;
+    font-size: 5vmin;
+}
+.center-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hide{
+    display:none;
 }
 .centered{
     left: 20%;
 }
 .centered-long{
     left: 30%;
+}
+.centered-menu{
+    left: 20%;
 }
 .subtext{
     padding-top: 0;
@@ -292,7 +305,6 @@ body h1{
     grid-column: span 1 / span 1;
     border-radius:0.5rem;
     width:75%;
-    align-self: center;
 }
 .two-column{
     display: grid;
@@ -429,6 +441,21 @@ footer{
     .two-column{
     grid-template-columns: repeat(2,minmax(0,1fr));
     }
+    .centered,
+    .centered-long, 
+    .centered-menu{
+        font-size: 3vmin;
+    }
+    .washi{
+    aspect-ratio: auto;
+    width:30%;
+    }
+    .washi-container{
+    left:10%;
+    }
+    .centered{
+    left: 15%;
+}
 }
 
 
